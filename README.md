@@ -17,3 +17,4 @@ Monitors status and online changes of many users at the same time
 ### How to use?
 • <code>First of all, run app</code><br>
 • <code>Then, get your token by following the [link](https://oauth.vk.com/authorize?client_id=7757764&display=page&redirect_uri=https://oauth.vk.com/blank.html&scope=friends&response_type=token&v=5.130&scope=conversations) (the token will be displayed in the address bar)</code><br>
+• <code>Enter the id of the people you want to monitor, separated by commas.</code><br>
