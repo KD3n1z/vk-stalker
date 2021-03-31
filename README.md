@@ -1,5 +1,5 @@
-![repo-size](https://img.shields.io/github/languages/code-size/KD3n1z/vk-stalker)
 [![made-with-python](https://img.shields.io/badge/Made%20with-Python-yellow)](https://www.python.org/)
+![repo-size](https://img.shields.io/github/languages/code-size/KD3n1z/vk-stalker)
 ![downloads](https://img.shields.io/github/downloads/KD3n1z/vk-stalker/total)
 ![license](https://img.shields.io/github/license/KD3n1z/vk-stalker)
 
