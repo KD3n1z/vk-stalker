@@ -11,8 +11,9 @@ Monitors status and online changes of many users at the same time
 • <code>apt update</code><br>
 • <code>apt upgrade</code><br>
 • <code>apt install git</code><br>
-• <code>apt install python3</code><br>
 • <code>git clone https://github.com/KD3n1z/vk-stalker.git</code><br>
+• <code>cd vk-stalker</code><br>
+• <code>bash setup.sh</code><br>
 <br>
 ### How to run?
 • <code>cd vk-stalker</code><br>
