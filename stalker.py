@@ -1,17 +1,16 @@
+#!/bin/python3
 import os
-
-print("init...")
-os.system("pip3 install requests")
-os.system("pip3 install colorama")
 import requests
 from colorama import Fore
 from datetime import datetime
-import os
 import time
 import json
 
 try:
-    os.mkdir("./logs")
+    if os.name == "nt":
+        os.mkdir(os.getenv("APPDATA") + "\\vk-stalker")
+    else:
+        os.mkdir(os.popup("echo $PREFIX") + "/share/vk-stalker")
 except:
     print()
 
@@ -54,9 +53,26 @@ idsArray = ids.split(",")
 
 delay = float(input("delay (seconds): "))
 
-file1 = open(
-    "./logs/" + datetime.now().strftime("%d%m%Y%H%M%S") + ".txt", "w+", encoding="utf-8"
-)
+
+if os.name == "nt":
+    print()
+    file1 = open(
+        os.getenv("APPDATA")
+        + "\\vk-stalker\\log"
+        + datetime.now().strftime("%d%m%Y%H%M%S")
+        + ".txt",
+        "w+",
+        encoding="utf-8",
+    )
+else:
+    file1 = open(
+        os.popup("echo $PREFIX")
+        + "/share/vk-stalker/log"
+        + datetime.now().strftime("%d%m%Y%H%M%S")
+        + ".txt",
+        "w+",
+        encoding="utf-8",
+    )
 users = []
 
 
