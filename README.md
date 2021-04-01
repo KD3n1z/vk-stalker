@@ -23,7 +23,7 @@ Monitors status and online changes of many users at the same time
 • <code>Specify the delay between checks.</code><br>
 <br><br>
 ### Other information
-Logs stores in <code>/usr/share/vk-stalker/</code>
-To stop, use <code>CTRL + C</code><br><br>
-
+Logs stores in <code>/usr/share/vk-stalker/</code><br>
+To stop, use <code>CTRL + C</code>
+<br><br>
 Love y'all, pleasant use <3
