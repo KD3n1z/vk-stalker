@@ -11,6 +11,8 @@ Monitors status and online changes of many users at the same time
 • <code>apt update</code><br>
 • <code>apt upgrade</code><br>
 • <code>apt install git</code><br>
+• <code>apt install python</code><br>
+• <code>pip3 install requests colorama</code><br>
 • <code>git clone https://github.com/KD3n1z/vk-stalker.git</code><br>
 <br>
 ### How to run?
